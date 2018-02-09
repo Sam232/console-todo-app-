@@ -14,3 +14,5 @@ This app uses yargs for receiving parameters passed to the it. To CRUD, enter th
 4. node app.js delete-one "Todo Name" //Deleting a single todo
 5. node app.js delete-all //Deleting all todos
 6. node app.js update --name "Todo Name" --newName "New Todo Name" --newDescription "New Todo Description" //Updating an already existing todo
+
+The app was also tested using mocha and uses the expect third party module for applying assertions on received results.
